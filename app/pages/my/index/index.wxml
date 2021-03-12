@@ -1,0 +1,25 @@
+<view class="my-page">
+  <view class="my">
+    <view class="left">
+      <image src="/app/static/avatar-default.png"></image>
+      <view class="name">
+        <text>会员卡</text>
+        <text>13225786459</text>
+      </view>
+    </view>
+    <view class="right">
+      <image src="/app/static/nav_ic_service.png"></image>
+      <image src="/app/static/nav_ic_setup.png"></image>
+    </view>
+  </view>
+  <image class="health-records" src="/app/static/mine_img_1.png"></image>
+
+  <view class="my-list" wx:for="{{ctrlData}}" wx:key="index">
+    <view class="list">
+      <image src="{{item.icon}}"></image>
+      <text>{{item.name}}</text>
+    </view>
+    <image class="more" src="/app/static/list_ic_more_gray.png"></image>
+  </view>
+
+</view>

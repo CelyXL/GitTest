@@ -1,0 +1,18 @@
+<view>
+  <view class="box">
+
+    <view class='tabs-box'>
+      <block wx:for="{{['了解健康','改善健康','享受奖励']}}" wx:key="index">
+        <view class="tabs-item {{currentTabIndex == index ? 'selected' : '' }}" bindtap='onTabsItemTap'
+        data-index='{{index}}'>
+        {{item}}
+      </view>
+    </block>
+  </view>
+</view>
+  <view class='ordert-detail'>
+    <view hidden='{{currentTabIndex != 0}}'><know-health></know-health></view>
+    <view hidden='{{currentTabIndex != 1}}'><improve-health></improve-health></view>
+    <view hidden='{{currentTabIndex != 2}}'><reward></reward></view>
+  </view>
+</view>

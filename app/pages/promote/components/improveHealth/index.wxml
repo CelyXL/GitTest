@@ -1,0 +1,89 @@
+<view class="improve-page">
+  <view class="select-table">
+    <view class="left" wx:if="{{index===1}}">
+      <view class="tip">
+        <text>学习营养技能，</text>
+        <text>让身体更健康，</text>
+        <text>让味蕾更美好！</text>
+      </view>
+      <view class="line"></view>
+      <image class="talk-img" src="/app/static/health_consult.png"></image>
+      <text class="table-word">专业营养师咨询</text>
+    </view>
+    <view class="left" wx:if="{{index===2}}">
+      <view class="tip">
+        <text>222</text>
+        <text>222</text>
+        <text>222</text>
+      </view>
+      <view class="line"></view>
+      <image class="talk-img" src="/app/static/health_consult.png"></image>
+      <text class="table-word">专业营养师咨询</text>
+    </view>
+    <view class="left" wx:if="{{index===3}}">
+      <view class="tip">
+        <text>333</text>
+        <text>333</text>
+        <text>333</text>
+      </view>
+      <view class="line"></view>
+      <image class="talk-img" src="/app/static/health_consult.png"></image>
+      <text class="table-word">专业营养师咨询</text>
+    </view>
+    <view class="left" wx:if="{{index===4}}">
+      <view class="tip">
+        <text>444</text>
+        <text>444</text>
+        <text>555</text>
+      </view>
+      <view class="line"></view>
+      <image class="talk-img" src="/app/static/health_consult.png"></image>
+      <text class="table-word">专业营养师咨询</text>
+    </view>
+    <view class="right">
+      <view class='pie'>
+        <view class='slice-one slice'></view>
+        <view class='slice-two slice'>
+          <view>营养指导</view>
+        </view>
+        <view class='slice-three slice'>
+          <view>生活习惯</view>
+        </view>
+        <view class='slice-four slice'>
+          <view>健康日贴</view>
+        </view>
+        <view class='slice-five slice'>
+          <view>运动激励</view>
+        </view>
+        <view class='slice-six slice'></view>
+        <view class="circle"></view>
+      </view>
+    </view>
+  </view>
+  <view class="challenge">
+    <text>明日挑战</text>
+    <text>点击查看活动规则</text>
+  </view>
+  <view class="challenge-list">
+    <image class="bg" src="/app/static/health_challenge_bg.png"></image>
+    <view class="list-left">
+      <text>早起打卡，下注金1元</text>
+      <text>当前参与人数：1241人</text>
+    </view>
+    <view class="list-right">
+      <image src="/app/static/health_gold_big.png"></image>
+      <text>+500</text>
+    </view>
+  </view>
+  <view class="challenge-list l2">
+    <image class="bg" src="/app/static/health_challenge_bg.png"></image>
+    <view class="list-left">
+      <text>日行走12000步，下注金2元</text>
+      <text>当前参与人数：1241人</text>
+    </view>
+    <view class="list-right">
+      <image src="/app/static/health_gold_big.png"></image>
+      <text>+500</text>
+    </view>
+  </view>
+</view>

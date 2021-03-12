@@ -1,0 +1,170 @@
+.reward-page {
+  width: 100%;
+}
+.reward-page .vip {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40rpx;
+}
+.reward-page .vip .left text {
+  font-size: 36rpx;
+  color: #333333;
+}
+.reward-page .vip .left .prog {
+  margin-top: 10rpx;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.reward-page .vip .left .prog progress {
+  width: 330rpx;
+  height: 20rpx;
+}
+.reward-page .vip .left .prog text {
+  font-size: 24rpx;
+  color: #999999;
+  margin-left: 11rpx;
+}
+.reward-page .vip .right {
+  width: 160rpx;
+  height: 100rpx;
+  background: #F5FDFB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reward-page .vip .right image {
+  width: 44rpx;
+  height: 40rpx;
+}
+.reward-page .vip .right text {
+  margin-left: 20rpx;
+  font-size: 24rpx;
+  font-weight: bold;
+  width: 48rpx;
+}
+.reward-page .challenge {
+  margin-top: 65rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.reward-page .challenge view {
+  display: block;
+}
+.reward-page .challenge view:first-child {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #333333;
+}
+.reward-page .challenge view:last-child {
+  font-size: 26rpx;
+  color: #999999;
+}
+.reward-page .ranking-list {
+  width: 100%;
+  height: 484rpx;
+  background: #FFFAF8;
+  border-radius: 20px;
+  position: relative;
+  margin-top: 34rpx;
+}
+.reward-page .ranking-list .top {
+  width: 100%;
+  height: 64rpx;
+  text-align: center;
+}
+.reward-page .ranking-list .top image {
+  width: 300rpx;
+  height: 64rpx;
+}
+.reward-page .ranking-list .top text {
+  width: 100%;
+  height: 64rpx;
+  line-height: 64rpx;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+.reward-page .ranking-list .list {
+  height: 50rpx;
+  width: 100%;
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #C15E2D;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding-left: 36rpx;
+  margin-top: 26rpx;
+}
+.reward-page .ranking-list .list:first-child {
+  margin-top: 33rpx;
+}
+.reward-page .ranking-list .list .name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #C15E2D;
+}
+.reward-page .ranking-list .list .name image {
+  width: 50rpx;
+  height: 50rpx;
+  margin-left: 23rpx;
+  margin-right: 19rpx;
+}
+.reward-page .ranking-list .list .coin {
+  font-size: 28rpx;
+  font-weight: 600;
+  color: #FF8400;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 136rpx;
+  margin-right: 48rpx;
+}
+.reward-page .ranking-list .list .coin image {
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 16rpx;
+}
+.reward-page .l2 {
+  margin-top: 79rpx;
+}
+.reward-page .medal {
+  margin-top: 39rpx;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.reward-page .medal .medal-list {
+  width: 120rpx;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.reward-page .medal .medal-list image {
+  width: 120rpx;
+  height: 120rpx;
+}
+.reward-page .medal .medal-list text {
+  margin-top: 20rpx;
+  font-size: 26rpx;
+}
+.reward-page .l3 {
+  padding-bottom: 40rpx;
+}
+.reward-page .l3 view image {
+  width: 14rpx;
+  height: 24rpx;
+}

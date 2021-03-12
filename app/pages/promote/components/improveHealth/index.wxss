@@ -1,0 +1,196 @@
+.improve-page .select-table {
+  height: 380rpx;
+  width: 100%;
+  position: relative;
+  margin-top: 80rpx;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+.improve-page .select-table .left {
+  width: 380rpx;
+  height: 380rpx;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 26px 2px rgba(63, 118, 106, 0.08);
+  border-radius: 20rpx;
+}
+.improve-page .select-table .left .tip {
+  font-size: 28rpx;
+  color: #333333;
+  width: 100%;
+  padding: 40rpx;
+  line-height: 48rpx;
+  box-sizing: border-box;
+}
+.improve-page .select-table .left .tip text {
+  display: block;
+  text-align: center;
+}
+.improve-page .select-table .left .line {
+  height: 1rpx;
+  width: 300rpx;
+  margin: 0 auto;
+  background: #E9E9E9;
+}
+.improve-page .select-table .left .talk-img {
+  width: 38rpx;
+  height: 33rpx;
+  display: block;
+  margin: 30rpx auto 0;
+}
+.improve-page .select-table .left .table-word {
+  font-size: 26rpx;
+  width: 100%;
+  display: block;
+  margin-top: 20rpx;
+  color: #3CC28B;
+  text-align: center;
+}
+.improve-page .select-table .right {
+  width: 380rpx;
+  height: 380rpx;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-right: -150rpx;
+}
+.improve-page .select-table .right .pie {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  list-style: none;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.improve-page .select-table .right .slice {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 50%;
+  transform-origin: 0% 100%;
+}
+.improve-page .select-table .right .slice view {
+  transform: rotate(49deg) skewX(10deg);
+  z-index: 10;
+  margin-bottom: -20px;
+  position: absolute;
+  top: 47px;
+  left: 18px;
+  z-index: 9999;
+  font-size: 24rpx;
+  width: 70rpx;
+  color: #fff;
+}
+.improve-page .select-table .right .slice-one {
+  transform: rotate(30deg) skewY(-30deg);
+  background: #32CC9A;
+}
+.improve-page .select-table .right .slice-two {
+  transform: rotate(-30deg) skewY(-30deg);
+  background: #32CC9A;
+}
+.improve-page .select-table .right .slice-two view {
+  transform: rotate(49deg) skewX(10deg);
+}
+.improve-page .select-table .right .slice-three {
+  transform: rotate(-90deg) skewY(-30deg);
+  background: #32CC9A;
+}
+.improve-page .select-table .right .slice-three view {
+  transform: rotate(90deg) skewX(-30deg);
+}
+.improve-page .select-table .right .slice-four {
+  transform: rotate(-150deg) skewY(-30deg);
+  background: #32CC9A;
+}
+.improve-page .select-table .right .slice-four view {
+  transform: rotate(177deg) skewX(21deg);
+}
+.improve-page .select-table .right .slice-five {
+  transform: rotate(-210deg) skewY(-30deg);
+  background: #32CC9A;
+}
+.improve-page .select-table .right .slice-five view {
+  transform: rotate(229deg) skewX(13deg);
+}
+.improve-page .select-table .right .slice-six {
+  transform: rotate(-270deg) skewY(-30deg);
+  background: #32CC9A;
+}
+.improve-page .select-table .right .circle {
+  width: 160rpx;
+  height: 160rpx;
+  background: #fff;
+  border-radius: 50%;
+  z-index: 9;
+}
+.improve-page .challenge {
+  margin-top: 109rpx;
+}
+.improve-page .challenge text {
+  width: 100%;
+}
+.improve-page .challenge text:first-child {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #333333;
+}
+.improve-page .challenge text:last-child {
+  width: 212rpx;
+  font-size: 26rpx;
+  color: #999999;
+  float: right;
+}
+.improve-page .challenge-list {
+  width: 690rpx;
+  height: 160rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin-top: 42rpx;
+}
+.improve-page .challenge-list .bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.improve-page .challenge-list .list-left {
+  margin-left: 31rpx;
+}
+.improve-page .challenge-list .list-left text:first-child {
+  color: #8B4128;
+  font-size: 30rpx;
+  font-weight: 600;
+}
+.improve-page .challenge-list .list-left text:last-child {
+  display: block;
+  margin-top: 19rpx;
+  font-size: 26rpx;
+  color: #D3B2A6;
+}
+.improve-page .challenge-list .list-right {
+  margin-right: 40rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.improve-page .challenge-list .list-right image {
+  width: 56rpx;
+  height: 56rpx;
+  margin-right: 10rpx;
+}
+.improve-page .challenge-list .list-right text {
+  color: #FF8400;
+}
+.improve-page .l2 {
+  margin-top: 30rpx;
+}

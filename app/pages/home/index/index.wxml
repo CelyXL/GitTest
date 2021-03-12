@@ -1,0 +1,28 @@
+<view class="home-page">
+  <!-- banner -->
+  <image class="banner" src="/app/static/home_banner.png"></image>
+  <!-- nav  -->
+  <view class="nav">
+    <image class="bg" src="/app/static/home_bg.png"></image>
+    <view class="health-coin">
+      <image wx:if="{{isLogin}}" src="/app/static/home_img_1.png"></image>
+      <image wx:if="{{!isLogin}}" src="/app/static/home_img_1_2.png"></image>
+    </view>
+    <view class="nav-list">
+      <image src="/app/static/home_img_2.png"></image>
+      <image src="/app/static/home_img_3.png"></image>
+      <image src="/app/static/home_img_4.png"></image>
+    </view>
+  </view>
+  <!-- nav-btn -->
+  <view class="nav-btn">
+    <view class="btn-list" wx:for="{{btnList}}" wx:key="index">
+      <image src="{{item.icon}}"></image>
+      <text>{{item.text}}</text>
+    </view>
+  </view>
+  <!-- mall image  -->
+  <view class="mall-list">
+    <image wx:for="{{mallImg}}" wx:key="index" src="{{item}}"></image>
+  </view>
+</view>

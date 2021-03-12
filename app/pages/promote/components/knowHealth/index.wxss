@@ -1,0 +1,67 @@
+.age-component {
+  width: 100%;
+}
+.age-component .age {
+  width: 375rpx;
+  height: 370rpx;
+  display: block;
+  margin: 70rpx auto 0;
+}
+.age-component .txt {
+  margin-top: 10rpx;
+  text-align: center;
+  font-size: 26rpx;
+  color: #3CC28B;
+  display: block;
+  letter-spacing: 3rpx;
+}
+.age-component .upload {
+  width: 100%;
+  height: 64rpx;
+  margin-top: 88rpx;
+  display: flex;
+  justify-items: flex-start;
+  align-items: center;
+  position: relative;
+}
+.age-component .upload .title {
+  font-size: 32rpx;
+  font-weight: bold;
+}
+.age-component .upload image {
+  height: 40rpx;
+  width: 40rpx;
+  margin-left: 20rpx;
+  vertical-align: 8rpx;
+}
+.age-component .upload .coin-num {
+  font-size: 26rpx;
+  color: #FF8400;
+  margin-left: 10rpx;
+}
+.age-component .upload button {
+  width: 140rpx;
+  height: 64rpx;
+  text-align: center;
+  background: #32CC9A;
+  line-height: 67rpx;
+  position: absolute;
+  right: 0;
+  top: 0;
+  float: right;
+  font-size: 28rpx;
+  color: #FFFFFF;
+  padding: 0;
+  border-radius: 32rpx;
+}
+.age-component .title-2 {
+  display: block;
+  font-size: 32rpx;
+  font-weight: bold;
+  margin-top: 51rpx;
+}
+.age-component .list-img {
+  margin-top: 39rpx;
+  width: 690rpx;
+  height: 254rpx;
+}

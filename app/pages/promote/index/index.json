@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "know-health":"../components/knowHealth",
+    "improve-health":"../components/improveHealth",
+    "reward":"../components/reward"
+  },
+  "navigationBarTitleText":"健康促进"
+}

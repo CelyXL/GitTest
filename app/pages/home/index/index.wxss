@@ -1,0 +1,116 @@
+.home-page {
+  padding: 0 30rpx;
+}
+.home-page .banner {
+  margin: 32rpx auto 0;
+  padding: 0;
+  display: block;
+  width: 690rpx;
+  height: 220rpx;
+}
+.home-page .nav {
+  height: 392rpx;
+  width: 100%;
+  margin-top: 40rpx;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.home-page .nav .health-coin {
+  width: 330rpx;
+  height: 320rpx;
+  margin-right: 10rpx;
+  display: block;
+  margin-left: 10rpx;
+  margin-bottom: 10rpx;
+}
+.home-page .nav .health-coin image {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.home-page .nav .nav-list {
+  width: 330rpx;
+  margin-right: 10rpx;
+  margin-bottom: 10rpx;
+}
+.home-page .nav .nav-list image {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100rpx;
+  display: block;
+  margin-top: 10rpx;
+}
+.home-page .nav .nav-list image:first-child {
+  margin-top: 0;
+}
+.home-page .nav .bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.home-page .nav-btn {
+  display: flex;
+  flex-flow: row wrap;
+  justify-items: center;
+  align-items: center;
+  margin-top: 14rpx;
+}
+.home-page .nav-btn .btn-list {
+  width: 98rpx;
+  height: auto;
+  margin: 0 46rpx;
+  text-align: center;
+}
+.home-page .nav-btn .btn-list:nth-child(4) {
+  margin-right: 0;
+}
+.home-page .nav-btn .btn-list:nth-child(5) {
+  margin-left: 16rpx;
+}
+.home-page .nav-btn .btn-list:first-child {
+  margin-left: 16rpx;
+}
+.home-page .nav-btn .btn-list:last-child {
+  margin-right: 0;
+}
+.home-page .nav-btn .btn-list image {
+  width: 60rpx;
+  height: 60rpx;
+  display: block;
+  margin: 0 auto;
+  margin-top: 46rpx;
+}
+.home-page .nav-btn .btn-list text {
+  width: 95rpx;
+  height: 23rpx;
+  font-size: 24rpx;
+  color: #666666;
+}
+.home-page .mall-list {
+  width: 100%;
+  height: auto;
+  padding-bottom: 60rpx;
+  display: flex;
+  flex-flow: row wrap;
+  justify-items: center;
+  align-items: center;
+  margin-top: 40rpx;
+}
+.home-page .mall-list image {
+  width: 330rpx;
+  height: 330rpx;
+  margin-top: 30rpx;
+}
+.home-page .mall-list image:nth-child(2n+1) {
+  margin-right: 30rpx;
+}

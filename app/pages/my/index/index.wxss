@@ -1,0 +1,79 @@
+.my-page {
+  width: 100%;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+}
+.my-page .my {
+  height: 120rpx;
+  width: 100%;
+  margin-top: 62rpx;
+  margin-left: 10rpx;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.my-page .my .left {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.my-page .my .left image {
+  width: 120rpx;
+  height: 120rpx;
+  margin-right: 31rpx;
+}
+.my-page .my .left .name {
+  display: flex;
+  flex-flow: column nowrap;
+}
+.my-page .my .left .name text:first-child {
+  font-size: 36rpx;
+  font-weight: 600;
+}
+.my-page .my .left .name text:last-child {
+  margin-top: 20rpx;
+  font-size: 26rpx;
+  color: #999999;
+}
+.my-page .my .right image {
+  width: 44rpx;
+  height: 44rpx;
+}
+.my-page .my .right image:last-child {
+  margin-left: 40rpx;
+}
+.my-page .health-records {
+  width: 100%;
+  height: 120rpx;
+  display: block;
+  margin-top: 60rpx;
+  margin-bottom: 30rpx;
+}
+.my-page .my-list {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.my-page .my-list .list {
+  height: 100rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.my-page .my-list .list image {
+  width: 32rpx;
+  height: 32rpx;
+}
+.my-page .my-list .list text {
+  margin-left: 29rpx;
+  font-size: 30rpx;
+  font-weight: 600;
+}
+.my-page .my-list .more {
+  width: 14rpx;
+  height: 24rpx;
+}

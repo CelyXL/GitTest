@@ -1,0 +1,34 @@
+.box {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.box .tabs-box {
+  width: 92%;
+  height: 80rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 80rpx;
+  text-align: center;
+  color: #333333;
+  font-size: 26rpx;
+  background: #FAFAFA;
+  margin: 0 auto;
+}
+.ordert-detail {
+  margin-top: 80rpx;
+  padding: 0 30rpx;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+.tabs-item.selected {
+  font-weight: bold;
+  border-bottom: 6rpx solid #32CC9A;
+  font-size: 32rpx;
+}
+.tabs-item {
+  width: 33.3%;
+}

@@ -1,0 +1,96 @@
+.my-page {
+  width: 100%;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+
+  .my {
+    height: 120rpx;
+    width: 100%;
+    margin-top: 62rpx;
+    margin-left: 10rpx;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    .left {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: flex-start;
+      align-items: center;
+
+      image {
+        width: 120rpx;
+        height: 120rpx;
+        margin-right: 31rpx;
+      }
+
+      .name {
+        display: flex;
+        flex-flow: column nowrap;
+
+        text {
+
+          &:first-child {
+            font-size: 36rpx;
+            font-weight: 600;
+          }
+
+          &:last-child {
+            margin-top: 20rpx;
+            font-size: 26rpx;
+            color: #999999;
+          }
+        }
+      }
+    }
+
+    .right {
+      image {
+        width: 44rpx;
+        height: 44rpx;
+
+        &:last-child {
+          margin-left: 40rpx;
+        }
+      }
+    }
+  }
+
+  .health-records {
+    width: 100%;
+    height: 120rpx;
+    display: block;
+    margin-top: 60rpx;
+    margin-bottom:30rpx;
+  }
+
+  .my-list {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:space-between;
+    align-items:center;
+    .list {
+      height:100rpx;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      image {
+        width: 32rpx;
+        height: 32rpx;
+      }
+
+      text {
+        margin-left:29rpx;
+        font-size: 30rpx;
+        font-weight: 600;
+      }
+    }
+
+    .more {
+      width: 14rpx;
+      height: 24rpx;
+    }
+  }
+}

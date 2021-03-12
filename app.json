@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "app/pages/home/index/index",
+    "app/pages/promote/index/index",
+    "app/pages/mall/index/index",
+    "app/pages/my/index/index",
+    "app/pages/index/index",
+    "app/pages/logs/logs"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "app/pages/home/index/index",
+        "text": "首页",
+        "iconPath": "app/static/icon/home-icon.png",
+        "selectedIconPath": "app/static/icon/home-icon-active.png"
+      },
+      {
+        "pagePath": "app/pages/promote/index/index",
+        "text": "健康促进",
+        "iconPath": "app/static/icon/promote-icon.png",
+        "selectedIconPath": "app/static/icon/promote-icon-active.png"
+      },
+      {
+        "pagePath": "app/pages/mall/index/index",
+        "text": "健康商城",
+        "iconPath": "app/static/icon/mall-icon.png",
+        "selectedIconPath": "app/static/icon/mall-icon-activel.png"
+      },
+      {
+        "pagePath": "app/pages/my/index/index",
+        "text": "我的",
+        "iconPath": "app/static/icon/my-icon.png",
+        "selectedIconPath": "app/static/icon/my-icon-active.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

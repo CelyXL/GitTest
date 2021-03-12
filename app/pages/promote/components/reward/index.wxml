@@ -1,0 +1,68 @@
+<view class="reward-page">
+  <view class="vip">
+    <view class="left">
+      <text>铂金会员</text>
+      <view class="prog">
+
+        <progress percent="50" active stroke-width="10" backgroundColor="#D0F1E9" activeColor="#32CC9A"
+          border-radius="50" />
+        <text>累计健康币</text>
+      </view>
+    </view>
+    <view class="right">
+      <image src="/app/static/health_shop.png"></image>
+      <text>积分商城</text>
+    </view>
+  </view>
+
+  <view class="challenge">
+    <view>今日得健康币</view>
+    <view>获币详情</view>
+  </view>
+
+  <view class="ranking-list">
+    <view class="top">
+      <image src="/app/static/health_ranking.png"></image>
+      <text>今日健康币排名</text>
+    </view>
+    <view class="list" wx:for="{{rankingData}}" wx:key="index">
+      <view class="name">
+        <text>{{index+1}}.</text>
+        <image src="{{item.img}}"></image>
+        <text>{{item.name}}</text>
+      </view>
+      <view class="coin">
+        <image src="/app/static/health_gold_small.png"></image>
+        <text>{{item.coin}}</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="challenge l2">
+    <view>我的健康勋章</view>
+    <view> </view>
+  </view>
+
+  <view class="medal">
+    <view class="medal-list">
+      <image src="/app/static/health_medal_somke.png"></image>
+      <text>7日戒烟</text>
+    </view>
+    <view class="medal-list">
+      <image src="/app/static/health_medal_somke.png"></image>
+      <text>8日戒烟</text>
+    </view>
+    <view class="medal-list">
+      <image src="/app/static/health_medal_somke.png"></image>
+      <text>9日戒烟</text>
+    </view>
+    <view class="medal-list">
+      <image src="/app/static/health_medal_somke.png"></image>
+      <text>10日戒烟</text>
+    </view>
+  </view>
+  <view class="challenge l2 l3">
+    <view>我的健康圈</view>
+    <view><image src="/app/static/list_ic_more.png"></image> </view>
+  </view>
+</view>

@@ -1,0 +1,12 @@
+<view class="age-component">
+  <image class="age" src="/app/static/health_img_1.png"></image>
+  <text class="txt">查看我的健康档案</text>
+  <view class="upload">
+    <text class="title">体检报告上传</text>
+    <image src="/app/static/health_gold_small.png"></image>
+    <text class="coin-num">+500</text>
+    <button>上传</button>
+  </view>
+  <text class="title-2">健康风险评估</text>
+  <image class="list-img" src="/app/static/health_img_2.png"></image>
+</view>
